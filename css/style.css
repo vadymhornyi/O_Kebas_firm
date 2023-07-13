@@ -42,4 +42,24 @@ background-size: cover;
     z-index: 99;
 }
 
+.header__logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Nav */
+.nav {
+    font-style: 14px;
+    text-transform: uppercase;
+}
+
+.nav__links {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__links:hover {
+    color: #fce38a;
+}
 
