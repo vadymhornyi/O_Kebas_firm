@@ -184,10 +184,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #BFE2FF;
 }
 .slideshow-item-text p {
-    font-size: 36px;
+    font-size: 20px;
     word-spacing: 10px;
     margin-bottom: 30px;
     text-align: center;
+    letter-spacing: 8px;
 }
 
 .btn {
@@ -203,7 +204,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #BFE2FF; 
     text-transform: uppercase;
     text-decoration: none;
+    transition: background .1s linear, color .1s linear;
 
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #333;  
 }
 @keyframes slideanim {
     12.5%{
@@ -239,3 +246,58 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 13px;
     }
 }
+
+/* Section */
+
+.section {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.section__header {
+    width: 100%;
+    max-width: 950px;
+    text-align: center;
+    margin-bottom: 0 auto 40px;
+}
+
+.section__suptitle {
+    font-family: cursive;
+    font-size: 24px;
+    color: #333;
+}
+
+.section__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.section__title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 30px auto;
+
+    background-color: #f38181;
+} 
+
+.section__text {
+    font-size: 15px;
+    color: #999;
+}
+
+/* About */
+
+.about {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about__item {
+    width: 30%;
+}
+
