@@ -129,6 +129,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1;
 }
 
+/*Слайдшоу*/
 .slideshow {
     width: 100%;
     height: 100vh;
@@ -167,13 +168,13 @@ h1, h2, h3, h4, h5, h6 {
     animation: zoom 40s infinite;
 }
 .slideshow-item-text {
-    max-width: 50%;
+    max-width: 100%;
     position: absolute;
     bottom: 20px;
     left: 20px;
     background-color: rgba(0,0,0,0);
     color: #fff;
-    padding: 20px 30px;
+    padding: 300px 500px;
    /* font-family: Verdana, sans-serif;  */    
 }
 .slideshow-item-text h5 {
@@ -184,7 +185,8 @@ h1, h2, h3, h4, h5, h6 {
 .slideshow-item-text p {
     font-size: 36px;
     word-spacing: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 @keyframes slideanim {
     12.5%{
