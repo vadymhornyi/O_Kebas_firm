@@ -11,7 +11,7 @@
     <title>O_Kebas_firm</title>
 </head>
 <body>
-
+    <div class="loader"><div class="lds-ring"><div></div><div></div><div></div><div></div></div></div>
 <header class="header">
     <div class="container">
         <div class="header__inner">
@@ -23,6 +23,11 @@
                     <a class="nav__link" href="#">Майстер-класи</a>
                     <a class="nav__link" href="#">Заходи, вечірки, зустрічі</a>
                     <a class="nav__link" href="#">Contact</a>
+                    <ul class="nav-list">
+                        <li class="header-items-lang-pl"><button id="pl" class="translate"><img class="flag" src="./images/icons/pl.png" alt="plflag"></button></li> 
+                        <li class="header-items-lang-en"><button id="ukr" class="translate"><img class="flag"src="./images/icons/uk.png" alt="ukrflag"></button></li>
+                        <li class="header-items-lang-ukr"><button id="en" class="translate"><img class="flag" src="./images/icons/ukr.png" alt="ukflag"></button></li>
+                    </ul>
                 </nav>
         </div>
     </div>
@@ -110,6 +115,6 @@
 -->
    
     
-    
+    <script src="./js/jquery.min.js" onload="loader()"></script>
 </body>
 </html>
